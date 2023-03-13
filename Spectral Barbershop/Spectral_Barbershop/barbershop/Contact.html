@@ -11,6 +11,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script src="https://kit.fontawesome.com/2b64b2c9c5.js" crossorigin="anonymous"></script>
 	</head>
 	<body class="is-preload">
 
@@ -40,61 +41,36 @@
 				<!-- Main -->
 					<article id="main">
 						<header>
-							<h2>Meet The Team</h2>
-							<p>Check out who we are</p>
+							<h2>Book with Us</h2>
+							<p>Complete Form below for your experience.</p>
 						</header>
 						<section id="form" class="form">
 							<section class="form1">
 									<h2>Book a Consultation</h2>
 									<p>Fill out the information below to book a consultation with your barber today.</p>
 									<form>
-										<table>
-											<tr>
-												<td>
-													Name :
-												</td>
-												<td>
-													<input type="text" placeholder="Name" name="">
-												</td>
-											</tr>
-											<tr>
-												<td>
-													Email :
-												</td>
-												<td>
-													<input type="Email" placeholder="Email" name="">
-												</td>
-											</tr>
-											<tr>
-												<td>
-													
-												</td>
-												<td>
-													<input type="text" placeholder="Type a brief message of what you would like to discuss." name="">
-												</td>
-											</tr>
-										</table>
-										<button>Send Message</button>
+										<div class="row">
+											<div class="input-group">
+												<input type="text" id="name" required>
+												<label for="name"><i class="fa-solid fa-user"></i>Name</label>
+											</div>
+											<div class="input-group">
+												<input type="text" id="number" required>
+												<label for="number"><i class="fa-solid fa-phone"></i>Phone No.</label>
+											</div>
+										</div>
+										<div class="input-group">
+											<input type="text" id="email" required>
+											<label for="name"><i class="fa-solid fa-envelope"></i>Email</label>
+										</div>
+										<div class="input-group">
+											<textarea id="message" rows="8" required></textarea>
+											<label for="message"><i class="fa-solid fa-comment"></i>Your Message</label>
+										</div>
+										<button type="submit"><i class="fa-solid fa-paper-plane"></i>Send Message</button>
+										<button type="reset"><i class="fa-solid fa-rotate"></i>Reset</button>
 									</form>
 							</section>
-							<section class="spotlight">
-								<div class="image"><img src="./images/Barber2.jpg" alt="MIKE" /></div><div class="content">
-									<h2>Mike</h2>
-									<p>Meet Mike, a talented barber hailing from the Garden State. With years of experience under his belt, Mike has a knack for creating personalized haircuts that enhance his clients' unique features. He takes a client-centered approach to barbering, ensuring that each person who sits in his chair receives a tailored experience that meets their specific needs and preferences.</p>
-									<button><a href="MAKE A BOOK NOW PAGE">Book Now</a></button>
-									
-								</div>
-							</section>
-							<section class="spotlight">
-								<div class="image"><img src="./images/Barber3.jpg" alt="Sarah" /></div><div class="content">
-									<h2>Sarah</h2>
-									<p>Meet Sarah, a talented barber born and raised in Pennsylvania. With a passion for men's grooming and an eye for detail, Sarah has been perfecting her craft for over a decade. She is skilled in a variety of haircuts and grooming services, from classic cuts to modern styles and everything in between. Sarah takes pride in creating a welcoming and inclusive atmosphere in her shop, where clients of all genders feel comfortable and valued.</p>
-									<button>Book Now</button>
-								</div>
-							</section>
-						</section>
-					</article>
-
 				<!-- Footer -->
 					<footer id="footer">
 						<ul class="icons">
