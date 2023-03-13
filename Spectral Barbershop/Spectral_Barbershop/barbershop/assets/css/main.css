@@ -3882,6 +3882,7 @@ input, select, textarea {
 		background-attachment: scroll;
 	}
 
+
 /* Footer */
 
 	#footer {
@@ -3997,3 +3998,10 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
+	.form1 {
+		max-width: 600px;
+		text-align: center;
+		margin: 20px auto;
+	}
+	
